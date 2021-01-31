@@ -3,7 +3,7 @@ vendor/
 config/development.config.php
 data/cache/*
 data/config.php
-data/load_db.php
+data/load*.php
 !data/cache/.gitkeep
 phpunit.xml
 .phpunit.result.cache
