@@ -8,9 +8,12 @@ use Album\Model\AlbumTable;
 use Laminas\ServiceManager\ServiceManager;
 use Album\Model\Album;
 use Prophecy\Argument;
+use Prophecy\PhpUnit\ProphecyTrait;
 
 class AlbumControllerTest extends AbstractHttpControllerTestCase
 {
+    use ProphecyTrait;
+    
     protected $traceError = true;
     protected $albumTable;
 
